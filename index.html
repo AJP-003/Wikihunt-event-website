@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="main.css">
+    <title>wikihunt</title>
+</head>
+<body>
+    <div id="wrapper">
+		<!-- Main -->
+		<section id="main" class="wrapper">
+			<div class="inner">
+				<div id="fonthelp">
+					<h2 class="major">Enter code</h1>
+				</div>
+				<!--LOGIN PAGE-->
+				<div id="fonthelp2">
+					<form name="login">
+						
+						<input type="text" name="pswrd" />
+						<br>
+						<input type="button" onclick="check(this.form)" value="Submit" />
+					</form>
+					<script language="javascript">
+						function check(form) { /*function to check userid & password*/
+							/*the following code checkes whether the entered userid and password are matching*/
+							if (form.userid.value == "Juamtano" && form.pswrd.value == "Jumapili") {
+								window.open('THcong.html')/*opens the target page while Id & password matches*/
+							}
+							else {
+								alert("TheInspectSaysItAll")/*displays error message*/
+							}
+						}
+					</script>
+				</div>
+
+
+			</div>
+		</section>
+	</div>
+</body>
+</html>
