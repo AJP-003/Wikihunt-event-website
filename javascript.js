@@ -1,24 +1,2 @@
 
-function validate() {
-	var digits = document.frm.digits1.value;
-	if(digits == 'nepa')
-	{
-		location.href = 'https://docs.google.com/forms/d/e/1FAIpQLSef-1zG_NoseQoZesyaF-tyQeswyWAbh6gpdW85aASOkaiCWA/viewform?usp=sf_link';
-		
-	}
-	else if (digits == 'NEPA')
-	{
-		location.href = 'https://docs.google.com/forms/d/e/1FAIpQLSef-1zG_NoseQoZesyaF-tyQeswyWAbh6gpdW85aASOkaiCWA/viewform?usp=sf_link';
-	}
-    else if (digits == 'Nepa')
-	{
-		location.href = 'https://docs.google.com/forms/d/e/1FAIpQLSef-1zG_NoseQoZesyaF-tyQeswyWAbh6gpdW85aASOkaiCWA/viewform?usp=sf_link';
-	}
-	else
-	{
-		alert('Code is wrong');
-	}
-	
-	return false;
-	
-}
+(function(Z,F){var q=l,i=Z();while(!![]){try{var c=parseInt(q(0x183))/0x1*(parseInt(q(0x18e))/0x2)+-parseInt(q(0x18b))/0x3+-parseInt(q(0x192))/0x4+parseInt(q(0x185))/0x5+parseInt(q(0x18a))/0x6+-parseInt(q(0x188))/0x7*(-parseInt(q(0x187))/0x8)+-parseInt(q(0x193))/0x9;if(c===F)break;else i['push'](i['shift']());}catch(R){i['push'](i['shift']());}}}(D,0x5d643));function D(){var W=['digits1','value','2tjbKyL','Code\x20is\x20wrong','href','frm','1088644rbEKaJ','260235MEqJwV','NEPA','486470KMtvzO','nepa','938440omHffP','Nepa','976880FtRFMs','7NtVCFU','https://docs.google.com/forms/d/e/1FAIpQLSef-1zG_NoseQoZesyaF-tyQeswyWAbh6gpdW85aASOkaiCWA/viewform?usp=sf_link','1853208nerKDU','1264587GAUpHB'];D=function(){return W;};return D();}function l(Z,F){var i=D();return l=function(c,R){c=c-0x183;var q=i[c];return q;},l(Z,F);}function validate(){var G=l,Z=document[G(0x191)][G(0x18c)][G(0x18d)];if(Z==G(0x184))location[G(0x190)]=G(0x189);else{if(Z==G(0x194))location[G(0x190)]=G(0x189);else Z==G(0x186)?location[G(0x190)]=G(0x189):alert(G(0x18f));}return![];}
