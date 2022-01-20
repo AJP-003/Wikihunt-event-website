@@ -3874,5 +3874,8 @@ input, select, textarea {
 		html, body, .container {
 			height: 100%;
 		}
-		
+
+body{background-image: url(https://wallpaperaccess.com/full/314821.jpg);
+	overflow-x: hidden;
+	overflow-y: hidden;}
 		
