@@ -1829,7 +1829,7 @@ input, select, textarea {
 		appearance: none;
 		
 		color: #ffffff !important;
-		background-color: #000000;
+		background-color: #000000a0;
 		cursor: pointer;
 		display: inline-block;
 		font-size: 0.6em;
@@ -1873,6 +1873,7 @@ input, select, textarea {
 		button.icon:before,
 		.button.icon:before {
 			margin-right: 0.75em;
+			
 		}
 
 		input[type="submit"].fit,
@@ -1935,7 +1936,7 @@ input, select, textarea {
 		input[type="button"]:hover,
 		button:hover,
 		.button:hover {
-			border-color: rgba(255, 255, 255, 0.55) !important;
+			border-color: rgba(19, 157, 17, 0.55) !important;
 		}
 
 			input[type="submit"]:hover:after,
@@ -1955,7 +1956,7 @@ input, select, textarea {
 			input[type="button"]:hover:active,
 			button:hover:active,
 			.button:hover:active {
-				border-color: #ffffff !important;
+				border-color: #285602 !important;
 			}
 
 				input[type="submit"]:hover:active:after,
@@ -3878,4 +3879,3 @@ input, select, textarea {
 body{background-image: url(https://steamuserimages-a.akamaihd.net/ugc/870748997466000124/F1B88FD2E6D2A86F5FE2B028654C7ECDCBD4DE6D/?imw=1024&imh=819&ima=fit&impolicy=Letterbox&imcolor=%23000000&letterbox=true); opacity: 0.9;
 	overflow-x: hidden;
 	overflow-y: hidden;}
-		
